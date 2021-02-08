@@ -3,16 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --light-bg: #fffbf0;
   --gray-bg: #f1f1f1;
   --light-text: #fabe4c;
   --black: #363958;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
+
 h1,
 h2,
 h3,
@@ -24,38 +27,48 @@ h6 {
   text-transform: uppercase;
   color: var(--black);
 }
+
 img {
   width: 100%;
 }
+
 .highlight-text {
   color: var(--light-text);
 }
+
 .light-bg {
   padding-top: 20px;
   background: var(--light-bg);
 }
+
 .benner-right img {
   margin-top: -80px;
   max-width: 70%;
   margin-bottom: 30px;
 }
+
 .logo img {
   width: 290px;
 }
+
 .dot-bg {
   background: url(images/dot.png) no-repeat right -8px;
 }
+
 nav {
   position: relative;
 }
+
 ul {
   margin: 0;
   float: right;
 }
+
 ul li {
   list-style: none;
   display: inline;
 }
+
 ul li a {
   text-decoration: none;
   color: #3c3c3c;
@@ -63,24 +76,30 @@ ul li a {
   padding: 10px;
   font-size: 14px;
 }
+
 ul li a:hover {
   color: #616161;
 }
+
 .banner > .container > .row {
   display: flex;
   align-items: center;
 }
+
 .banner-left {
   max-width: 400px;
 }
+
 .cart-item {
   margin: 20px auto;
 }
+
 .single-cart {
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
 }
+
 .single-cart .product-img {
   background: var(--gray-bg);
   border-radius: 15px;
@@ -89,24 +108,30 @@ ul li a:hover {
   flex-direction: column;
   align-items: center;
 }
+
 .single-cart .product-img img {
   max-width: 80%;
 }
+
 .product-details {
   margin-top: 15px;
 }
+
 .product-button {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .product-button p {
   margin: 0;
 }
+
 p.price {
   color: var(--light-text);
   font-size: 1.5rem;
 }
+
 .service-list {
   display: flex;
   align-items: center;
@@ -120,17 +145,21 @@ p.price {
   width: 78px;
   margin-right: 20px;
 }
+
 .service-right {
   display: flex;
   align-items: center;
 }
+
 .subscribe {
   padding: 100px 0;
   text-align: center;
 }
+
 footer {
   background-color: var(--black);
 }
+
 .footer-text {
   text-align: center;
   font-size: 12px;
@@ -141,12 +170,14 @@ footer {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+
 form input {
   border: 1px solid var(--light-text);
   padding: 6px;
   border-radius: 5px;
   margin-right: 10px;
 }
+
 .btn-primary-custom {
   background-image: linear-gradient(#a4bc46, #85a019);
   color: #f1f1f1;
